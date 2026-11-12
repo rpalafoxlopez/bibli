@@ -16,7 +16,7 @@ return new class extends Migration
                 ->restrictOnDelete();
 
             $table->string('title');
-            $table->date('publicacion_date');
+            $table->date('publication_date');
 
             $table->timestamps();
         });
